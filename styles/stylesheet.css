@@ -6,10 +6,12 @@ body {
   color: black;
 }
 h1 {
+  font-family: 'Epilogue', sans-serif;
   color: black;
 }
 a, head, p, h1, h2 {
-  font-family: Sans-serif, arial;
+  font-family: 'Epilogue', sans-serif;
+  color: white;
 }
 h1 {
   font-size:54px;
@@ -56,4 +58,8 @@ a:active {
 a {
   font-variant: small-caps;
   color: white;
+}
+.fas {
+  color: auto;
+  margin-right: 10px;
 }
