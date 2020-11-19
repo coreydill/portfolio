@@ -63,6 +63,7 @@ a:hover {
 a:active {
   background-color: black;
 }
+}
 a {
   font-variant: small-caps;
   color: white;
@@ -70,4 +71,23 @@ a {
 .fas {
   color: auto;
   margin-right: 10px;
+}
+h2:hover {
+  background-color: black;
+}
+ .navlinks:hover {
+   border: 3px solid pink;
+   background-color: black;
+}
+a:hover {
+  background-color: gray;
+}
+h2 {
+  transition: background-color 1s ease-in .25s;
+}
+.navlinks {
+  transition: border 1s ease-in 1s;
+}
+a {
+  transition: background-color 1s ease-in .1s;
 }
