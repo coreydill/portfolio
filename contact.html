@@ -12,42 +12,45 @@
     </nav>
     <h1>Contact Me</h1>
       <form method="GET">
-        <label>Your Name
-      <input type="text" name="clientName">
+
+        <p><label>Your Name
+          <input type="text" name="clientName" placeholder="Enter your name">
         </label>
+        </p>
 
-        <label>Your Email:
-          <input type="email" name="clientEmail">
+        <p><label>Your Email:
+          <input type="text" name="clientEmail" placeholder="suebloggs@email.com">
         </label>
+        </p>
 
-        <label>Your phone number:
-          <input type="phone" name="phoneNumber">
+        <p><label>Your phone number:
+          <input type="number" name="phoneNumber" placeholder="###-###-####">
         </label>
+        </p>
 
-
-        <fieldset>
-
-
-        <legend>Your preferred contact method:</legend>
-        <label>
-          <input type="radio" name="email">
+        <p>Your preferred contact method:
+          <input type="radio" name="contact" value="email">
+          <label>
           Email
-        </label>
-        <label>
-          <input type="radio" name="phone">
+          </label>
+          <input type="radio" name="contact" value="phone">
+          <label>
           Phone
+          </label>
+        </p>
+
+        <p>
+          <label>What are you interested in?
+          <textarea name="interests" rows="4" cols="100" placeholder="Enter response here"></textarea>
         </label>
-
-        </fieldset>
-
-
-
-
-
+        </p>
+        <input class="submit" type="submit" value="submit">
+        </form>
     <footer>
       <p><b>Contact Information</b></p>
       <p>coreydill@gmail.com</p>
     </footer>
+
   </body>
 
 </html>
