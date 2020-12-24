@@ -4,7 +4,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: justify;
+  align-items: inherit;
 }
 body {
   background-color: gray;
@@ -63,13 +63,13 @@ a:hover {
 a:active {
   background-color: black;
 }
-}
+
 a {
   font-variant: small-caps;
   color: white;
 }
 .fas {
-  color: auto;
+  color: inherit;
   margin-right: 10px;
 }
 h2:hover {
@@ -90,4 +90,31 @@ h2 {
 }
 a {
   transition: background-color 1s ease-in .1s;
+}
+
+
+
+
+
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem;
+}
+.preferred {
+  box-sizing: border-box;
+  width: 100%;
+  border: none;
+  display: block;
+}
+.submit {
+  background-color: inherit;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 150px;
+  margin-left: 80px;
 }
